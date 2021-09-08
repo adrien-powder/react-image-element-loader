@@ -38,7 +38,7 @@
     "lint": "eslint ./src/**/*.ts",
     "fix": "eslint --fix ./src/**/*.ts",
     "prepublishOnly": "npm run build",
-    "clean": "rm -rf ./lib"
+    "clean": "rimraf ./lib"
   },
   "config": {},
   "dependencies": {
@@ -67,6 +67,7 @@
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
     "prettier": "^1.19.1",
+    "rimraf": "^3.0.2",
     "typescript": "^3.7.2"
   },
   "peerDependencies": {
